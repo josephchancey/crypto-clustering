@@ -1,6 +1,6 @@
 # crypto-clustering
 
-A prominent investment bank is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. Theywould like a statement on what cryptocurrencies are on the trading market and whether they can be grouped to create a classification system for this new investment. See the bottom of this README.md for that statement.
+A prominent investment bank is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. They would like a statement on what cryptocurrencies are on the trading market and whether they can be grouped to create a classification system for this new investment. See the bottom of this README.md for that statement.
 
 ## Repository Structure
 
@@ -106,5 +106,5 @@ for i in k:
 ![PCA-Plot](img/k_means_elbow.png)
 
 # Conclusion Statement
-The T-SNE feature plut and the K-Means elbow plot suggests that there is 'potentially' a meaningful cluster in this dataset. However, I will conclude by saying there is not enough here to support meaningful clistering, regardless of potential value. Our elbow chart trends downwards with no elbow point to suggest a meaningful selection value. An optimal point for K-Mean selection using the elbow plot would be 6. However, this wouldn't yield good results as the elbow persists downwards. In short, there is not enough of a 'elbow' in our K-Means plot to signify a meaningful cluster in this dataset. Although 6 'maybe' used, it is not recommended based on what is seen here.
+The T-SNE feature plot and the K-Means elbow plot suggests that there is not a meaningful cluster in this dataset. I will conclude by saying there is not enough here to support meaningful clustering. Our elbow chart trends downwards with no elbow point to suggest a selection value that could be worth-while. The closest value we have is 6 on the k Means plot, but that elbow point does not stabilize and still trends downards linearly. In short, there is not enough of a 'elbow' in our K-Means plot to signify a meaningful cluster in this dataset. Although 6 'could' be used, it is not recommended and likely would not lead to anything of value. Therefore, there is no meaningful cluster in this dataset.
 
